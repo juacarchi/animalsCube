@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2176736909819580845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2176736909819580844}
+  - component: {fileID: 2176736909819580847}
+  m_Layer: 0
+  m_Name: Medusa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2176736909819580844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2176736909819580845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2176736909819580847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2176736909819580845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de07412e3dd92f442a049b1444fb0212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameAnimal: Medusa
+  animalSprite: {fileID: 21300000, guid: 16b0e5a16854563439a6b9d173686fa9, type: 3}
+  letterNumber: 6
+  lettersToComplete:
+  - {fileID: 7539618974389726198, guid: 594143559c475a549830ca355b07492b, type: 3}
+  - {fileID: 4620393785403002297, guid: e02f17e03a7051e44bcbce8ddfe6abd9, type: 3}
+  - {fileID: 8784149747677301508, guid: e82ad9a772b26204595367af82ae646c, type: 3}
+  - {fileID: 6993170745820981636, guid: 6b39b399b73c9d949b40d55ffe48cd76, type: 3}
+  - {fileID: 5394242562670994090, guid: a503e492c83768241bf6539a9179a79f, type: 3}
+  - {fileID: 749848261082550018, guid: b9d90482a0d26c544811cc900b50fd05, type: 3}
+  lettersAnimal:
+  - {fileID: 5143477981568930472, guid: c0becf4102132ff4dadb962e700540be, type: 3}
+  - {fileID: 4212085181398925257, guid: 8bb6bd41d55743c45bc4fc6bc553a08f, type: 3}
+  - {fileID: 8161365562801966623, guid: 15cca23ed6726b6458879367c9a80d2c, type: 3}
+  - {fileID: 8996104263309617218, guid: 464fe86ee91520544a59ac2d26b8c555, type: 3}
+  - {fileID: 8457012856246195428, guid: 1948bd3b23d9631488ae95b8fd0b2acf, type: 3}
+  - {fileID: 177589012520494363, guid: 62788bf01accc1841ac9a4408726a2ce, type: 3}
+  audioAnimal: {fileID: 8300000, guid: 77b671e9786a4294ab4018ae40544c80, type: 3}

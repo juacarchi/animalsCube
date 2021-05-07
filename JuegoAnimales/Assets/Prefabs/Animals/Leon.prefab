@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8705010909357518607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8705010909357518606}
+  - component: {fileID: 8705010909357518605}
+  m_Layer: 0
+  m_Name: Leon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8705010909357518606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8705010909357518607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8705010909357518605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8705010909357518607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de07412e3dd92f442a049b1444fb0212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameAnimal: Leon
+  animalSprite: {fileID: 21300000, guid: acfb2ccce64a0394d9a9c308c1869b3f, type: 3}
+  letterNumber: 4
+  lettersToComplete:
+  - {fileID: 2184752605743382175, guid: 96325b7d0ac199d48bb690b4518b3c38, type: 3}
+  - {fileID: 4620393785403002297, guid: e02f17e03a7051e44bcbce8ddfe6abd9, type: 3}
+  - {fileID: 3616702383254701565, guid: 7d6662d3d03aae94a9b051f71381f814, type: 3}
+  - {fileID: 7904624251576492377, guid: e94c43c986290ea4b912264353fde06e, type: 3}
+  lettersAnimal:
+  - {fileID: 6148220059995712534, guid: 70aefc55fc61ba94799312bbab3eaac6, type: 3}
+  - {fileID: 5143477981568930472, guid: c0becf4102132ff4dadb962e700540be, type: 3}
+  - {fileID: 3271929087630575172, guid: afb0b62835badba4691836d0de12534a, type: 3}
+  - {fileID: 5349712783501395596, guid: 90cbe15b74dbb044a8bad53db027d928, type: 3}
+  audioAnimal: {fileID: 8300000, guid: 1b3ce1f7d6c28814abef939514ab7e73, type: 3}

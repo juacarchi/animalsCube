@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4801572735683545327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4801572735683545326}
+  - component: {fileID: 4801572735683545325}
+  m_Layer: 0
+  m_Name: Ballena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4801572735683545326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801572735683545327}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4801572735683545325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801572735683545327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de07412e3dd92f442a049b1444fb0212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameAnimal: Ballena
+  animalSprite: {fileID: 21300000, guid: b1d45325ed45c074da97e51c97afca77, type: 3}
+  letterNumber: 7
+  lettersToComplete:
+  - {fileID: 6807910257831918526, guid: 05764c9c1d804194ea2d94bfb14fa332, type: 3}
+  - {fileID: 749848261082550018, guid: b9d90482a0d26c544811cc900b50fd05, type: 3}
+  - {fileID: 2184752605743382175, guid: 96325b7d0ac199d48bb690b4518b3c38, type: 3}
+  - {fileID: 2184752605743382175, guid: 96325b7d0ac199d48bb690b4518b3c38, type: 3}
+  - {fileID: 4620393785403002297, guid: e02f17e03a7051e44bcbce8ddfe6abd9, type: 3}
+  - {fileID: 7904624251576492377, guid: e94c43c986290ea4b912264353fde06e, type: 3}
+  - {fileID: 749848261082550018, guid: b9d90482a0d26c544811cc900b50fd05, type: 3}
+  lettersAnimal:
+  - {fileID: 5039354181218051932, guid: f293e814aa5270048a03320d0f00cbcc, type: 3}
+  - {fileID: 108958491201204313, guid: aa7a9818f16374a488840ada9966c1a7, type: 3}
+  - {fileID: 6797789034437603479, guid: f0862f58548be8449a0dc71dc895405a, type: 3}
+  - {fileID: 4643851192264876528, guid: dfe4a27e1519e6d42933911d2dd87393, type: 3}
+  - {fileID: 108958491201204313, guid: aa7a9818f16374a488840ada9966c1a7, type: 3}
+  - {fileID: 5039354181218051932, guid: f293e814aa5270048a03320d0f00cbcc, type: 3}
+  - {fileID: 679586787860735464, guid: e5b0ce80a1a644c469a213944bbfa9b1, type: 3}
+  audioAnimal: {fileID: 8300000, guid: 32e1cceb7ccfabd4694fc850defe70a2, type: 3}

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7417584356689937400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7417584356689937401}
+  - component: {fileID: 7417584356689937402}
+  m_Layer: 0
+  m_Name: Aguila
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7417584356689937401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7417584356689937400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7417584356689937402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7417584356689937400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de07412e3dd92f442a049b1444fb0212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameAnimal: Aguila
+  animalSprite: {fileID: 21300000, guid: b123c52927facb54ea01b3c61059ac00, type: 3}
+  letterNumber: 6
+  lettersToComplete:
+  - {fileID: 749848261082550018, guid: b9d90482a0d26c544811cc900b50fd05, type: 3}
+  - {fileID: 1054114907654262750, guid: 35a012481da1d6f45b42c69d16455200, type: 3}
+  - {fileID: 6993170745820981636, guid: 6b39b399b73c9d949b40d55ffe48cd76, type: 3}
+  - {fileID: 3144838182026933942, guid: f991d051c0cbbbb4a8e1c801762447f9, type: 3}
+  - {fileID: 2184752605743382175, guid: 96325b7d0ac199d48bb690b4518b3c38, type: 3}
+  - {fileID: 749848261082550018, guid: b9d90482a0d26c544811cc900b50fd05, type: 3}
+  lettersAnimal:
+  - {fileID: 3065178446618230009, guid: 112ce18c461468443ab15a633cdae548, type: 3}
+  - {fileID: 8996104263309617218, guid: 464fe86ee91520544a59ac2d26b8c555, type: 3}
+  - {fileID: 177589012520494363, guid: 62788bf01accc1841ac9a4408726a2ce, type: 3}
+  - {fileID: 6264374565884086554, guid: 2e4ea80e87fbb4a4f9b64902a6dd6487, type: 3}
+  - {fileID: 3271929087630575172, guid: afb0b62835badba4691836d0de12534a, type: 3}
+  - {fileID: 8996104263309617218, guid: 464fe86ee91520544a59ac2d26b8c555, type: 3}
+  audioAnimal: {fileID: 8300000, guid: 82eb7a0994436ca469c9c4643af55305, type: 3}

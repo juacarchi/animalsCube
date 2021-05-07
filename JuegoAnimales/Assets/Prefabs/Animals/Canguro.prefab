@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1007154470634620988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007154470634620989}
+  - component: {fileID: 1007154470634620990}
+  m_Layer: 0
+  m_Name: Canguro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1007154470634620989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007154470634620988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1007154470634620990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007154470634620988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de07412e3dd92f442a049b1444fb0212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameAnimal: Canguro
+  animalSprite: {fileID: 21300000, guid: de636a7c8c8713f41bd0f10627437cf7, type: 3}
+  letterNumber: 7
+  lettersToComplete:
+  - {fileID: 8213959530001325077, guid: 048272076a11a474ea4b3ed47436b29a, type: 3}
+  - {fileID: 749848261082550018, guid: b9d90482a0d26c544811cc900b50fd05, type: 3}
+  - {fileID: 7904624251576492377, guid: e94c43c986290ea4b912264353fde06e, type: 3}
+  - {fileID: 1054114907654262750, guid: 35a012481da1d6f45b42c69d16455200, type: 3}
+  - {fileID: 6993170745820981636, guid: 6b39b399b73c9d949b40d55ffe48cd76, type: 3}
+  - {fileID: 5551513956224644318, guid: aa66887b960505645b797afb7904f0be, type: 3}
+  - {fileID: 3616702383254701565, guid: 7d6662d3d03aae94a9b051f71381f814, type: 3}
+  lettersAnimal:
+  - {fileID: 5349712783501395596, guid: 90cbe15b74dbb044a8bad53db027d928, type: 3}
+  - {fileID: 8996104263309617218, guid: 464fe86ee91520544a59ac2d26b8c555, type: 3}
+  - {fileID: 3065178446618230009, guid: 112ce18c461468443ab15a633cdae548, type: 3}
+  - {fileID: 5626583696010026937, guid: 63cd232893f159c4b8694ece0ad184d1, type: 3}
+  - {fileID: 177589012520494363, guid: 62788bf01accc1841ac9a4408726a2ce, type: 3}
+  - {fileID: 6148220059995712534, guid: 70aefc55fc61ba94799312bbab3eaac6, type: 3}
+  - {fileID: 8624375853854567150, guid: 15d7b0344ce0116428187a88cfb72e98, type: 3}
+  audioAnimal: {fileID: 8300000, guid: 92196a666c4ee4e46a8b082d98001a43, type: 3}
