@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &161601958915501954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 161601958915501965}
+  - component: {fileID: 161601958915501964}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &161601958915501965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161601958915501954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &161601958915501964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161601958915501954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ee505ce462edd429519b81c2a9cb27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalsList:
+  - {fileID: 4801572735683545327, guid: 049ab391de6baeb4c91cb256a4b22faa, type: 3}
+  - {fileID: 8705010909357518607, guid: ab6f6170c8346524ab2e7feb8c43fed0, type: 3}
+  - {fileID: 8397432053006259127, guid: 8d811a8678328204a8f6b2e685619949, type: 3}
+  - {fileID: 7191648608696466507, guid: 6a9a3493bd642d34ea3ca5aec4566578, type: 3}
+  - {fileID: 9186204379200505675, guid: 2389c025d81369e4383c8f1ad5863377, type: 3}
+  - {fileID: 5407547804604314038, guid: d195df4f1ace6234189cc8f06d99a823, type: 3}
+  - {fileID: 179170650348416299, guid: dc010d18878f9c04eb4f04b6626ea621, type: 3}
+  - {fileID: 7417584356689937400, guid: da1d43a701f8d9f43bae9d4c377cb104, type: 3}
+  - {fileID: 1007154470634620988, guid: 3f4d302e3e83bb148a10e35dccb50db6, type: 3}
+  - {fileID: 1975985204573100365, guid: 9e05e3845cbc3954fb9ddad1f3e835f1, type: 3}
+  - {fileID: 8304804357158682470, guid: 859e44e3ed0ba9248b9b70f1d88bae89, type: 3}
+  - {fileID: 2176736909819580845, guid: 4c86c4030dc77004482e98b35cd1c86f, type: 3}
+  fx_Stars: {fileID: 8388366054375189917, guid: a2191119f0dfe6d49b036666ea859b27,
+    type: 3}
+  fx_Succes: {fileID: 349693742171243748, guid: 6b763ed3f86cd0f4c976c24aa8214477,
+    type: 3}
