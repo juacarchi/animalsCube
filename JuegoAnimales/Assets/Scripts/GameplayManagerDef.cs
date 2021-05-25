@@ -8,7 +8,7 @@ public class GameplayManagerDef : MonoBehaviour
     public RectTransform[] posSpaceToComplete;
     public RectTransform[] posCubeLetters;
     public GameObject panelVictory;
-
+    public GameObject canvasVictory;
     public SpriteRenderer animalImage;
     public Sprite[] spriteBackground;
 
@@ -20,7 +20,10 @@ public class GameplayManagerDef : MonoBehaviour
     List<GameObject> animalsList;
 
     int n_animal;
-    
+    private void Awake()
+    {
+        canvasVictory.SetActive(false);
+    }
     void Start()
     {
         
@@ -71,6 +74,7 @@ public class GameplayManagerDef : MonoBehaviour
         {
             SFXManager.instance.PlaySFX(newAnimal.GetAnimalSound());
             //panelVictory.SetActive(true);
+            canvasVictory.SetActive(true);
             animalsList.RemoveAt(n_animal);
             GameManager.instance.SetAnimalList(animalsList);
             GameManager.instance.SetLevelComplete(false);
