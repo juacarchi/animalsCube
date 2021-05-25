@@ -71,4 +71,5 @@ public class GameplayManager : MonoBehaviour
             panelVictory.SetActive(true);
         }
     }
+
 }

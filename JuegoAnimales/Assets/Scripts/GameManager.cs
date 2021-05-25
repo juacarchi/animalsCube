@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     bool timerToEnd;
     int numberOfAnimal;
     bool allLevelsCompleted;
+    int lastAnimal;
     private void Awake()
     {
         if (instance == null)
@@ -82,6 +83,10 @@ public class GameManager : MonoBehaviour
     {
         return letrasCorrectas;
     }
+    public void SetLetrasCorrectas(int letrasCorrectas)
+    {
+        this.letrasCorrectas = letrasCorrectas;
+    }
     public int GetLimiteLetras()
     {
         return limiteLetras;
@@ -139,5 +144,13 @@ public class GameManager : MonoBehaviour
     public void ResetAllLevelsCompleted(bool allLevelsCompleted)
     {
         this.allLevelsCompleted = allLevelsCompleted;
+    }
+    public void SetLastAnimal(int lastAnimal)
+    {
+        this.lastAnimal = lastAnimal;
+    }
+    public int GetLastAnimal()
+    {
+        return lastAnimal;
     }
 }
