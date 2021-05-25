@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviour
 {
     public GameObject pauseCanvas;
-
+    string url = "https://iquick.es";
     void Start()
     {
         pauseCanvas.SetActive(false);
@@ -27,5 +27,9 @@ public class Pause : MonoBehaviour
     public void CloseGame()
     {
         Application.Quit();
+    }
+    public void OpenURL()
+    {
+        Application.OpenURL(url);
     }
 }

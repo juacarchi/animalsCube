@@ -37,8 +37,9 @@ public class DragObject : MonoBehaviour, IDragHandler, IDropHandler
         Vector3 mousePosition = Input.mousePosition;
         mousePosition.z = zValue;
         Vector3 point = Camera.main.ScreenToWorldPoint(mousePosition);
-        point.x = Mathf.Clamp(point.x, xMin, xMax);
-        point.y = Mathf.Clamp(point.y, yMin, yMax);
+       //WEBGL
+        //point.x = Mathf.Clamp(point.x, xMin, xMax);
+        //point.y = Mathf.Clamp(point.y, yMin, yMax);
         transform.position = point;
         originalSprite.sortingOrder = 2;
         rb.isKinematic = true;
