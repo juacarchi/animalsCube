@@ -8,6 +8,8 @@ public class DragObject : MonoBehaviour, IDragHandler, IDropHandler
     public BoxCollider2D bx;
     GameObject fxStars;
     bool isDrag;
+    public float xMin, xMax;
+    public float yMin, yMax;
 
     private void Awake()
     {
@@ -15,7 +17,10 @@ public class DragObject : MonoBehaviour, IDragHandler, IDropHandler
         rb = GetComponent<Rigidbody2D>();
         bx = GetComponent<BoxCollider2D>();
         originalSprite.sortingOrder = 1;
-
+        xMin = -6.9f;
+        xMax = 6.9f;
+        yMin = -4.6f;
+        yMax = 4.6f;
     }
     private void Start()
     {
@@ -32,6 +37,8 @@ public class DragObject : MonoBehaviour, IDragHandler, IDropHandler
         Vector3 mousePosition = Input.mousePosition;
         mousePosition.z = zValue;
         Vector3 point = Camera.main.ScreenToWorldPoint(mousePosition);
+        point.x = Mathf.Clamp(point.x, xMin, xMax);
+        point.y = Mathf.Clamp(point.y, yMin, yMax);
         transform.position = point;
         originalSprite.sortingOrder = 2;
         rb.isKinematic = true;

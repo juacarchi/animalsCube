@@ -9,6 +9,7 @@ public class GameplayManagerDef : MonoBehaviour
     public RectTransform[] posCubeLetters;
     public GameObject panelVictory;
     public GameObject canvasVictory;
+    public GameObject canvasFinalVictory;
     public SpriteRenderer animalImage;
     public Sprite[] spriteBackground;
 
@@ -23,6 +24,7 @@ public class GameplayManagerDef : MonoBehaviour
     private void Awake()
     {
         canvasVictory.SetActive(false);
+        canvasFinalVictory.SetActive(false);
     }
     void Start()
     {
@@ -81,7 +83,9 @@ public class GameplayManagerDef : MonoBehaviour
         }
         if (GameManager.instance.GetAllLevelsCompleted())
         {
-            panelVictory.SetActive(true);
+            canvasFinalVictory.SetActive(true);
+            canvasVictory.SetActive(false);
+
         }
     }
 

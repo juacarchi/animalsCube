@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameAnimal: Medusa
-  animalSprite: {fileID: 21300000, guid: 16b0e5a16854563439a6b9d173686fa9, type: 3}
+  animalSprite: {fileID: 21300000, guid: 7256d406a6d59564baad4a54dbf8023c, type: 3}
   letterNumber: 6
   lettersToComplete:
   - {fileID: 7539618974389726198, guid: 594143559c475a549830ca355b07492b, type: 3}
